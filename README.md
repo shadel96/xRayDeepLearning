@@ -59,11 +59,11 @@ Another important method was the *Dropout Regularization* step that was taken to
 ## Results
 
 Our baseline model's Accuracy and Loss Visualizations can be seen below:
-![]('./img/1-baseline-acc.png)
-![]('./img/1-baseline-loss.png)
+![](./img/1-baseline-acc.png)
+![](./img/1-baseline-loss.png)
 
 And this is the Confusion Matrix for the same model:
-![]('./img/1-baseline-conf.png)
+![](./img/1-baseline-conf.png)
 
 
 The final model chosen based on highest performance, however, produced these results:
