@@ -42,11 +42,11 @@ We also use *Confusion Marices* to show each model's predictions on the test dat
 
 Additionally, we use certain metrics to identify how effective each model was when makin predicitons on the test data, iterating on each successful outcome.
 
-> * Recall (a.k.a. Sensitivity): __Recall is crucial__ in this analysis, particularly when evaluating our model against the test data. This metric will show us our model's ability to __avoid False Negatives__, or in other words to __prevent misdiagnosing someone as healthy when in reality they are ill__. 
+* Recall (a.k.a. Sensitivity): __Recall is crucial__ in this analysis, particularly when evaluating our model against the test data. This metric will show us our model's ability to __avoid False Negatives__, or in other words to __prevent misdiagnosing someone as healthy when in reality they are ill__. 
 
-> * Binary Accuracy: Accuracy is of course, important. It will tell us how well our model successfully predicts cases of pneumonia. Ideally, we will always want our accuracy score to go up. Without an accurate model, there is no valuable outcome for this analysis. Binary accuracy is a built in keras metric used specifically for binary classification problems like this one.
+* Binary Accuracy: Accuracy is of course, important. It will tell us how well our model successfully predicts cases of pneumonia. Ideally, we will always want our accuracy score to go up. Without an accurate model, there is no valuable outcome for this analysis. Binary accuracy is a built in keras metric used specifically for binary classification problems like this one.
 
-> * Precision: Our third significant metric explains how many of the Predicted Positives of our model are correct. This is important to avoid misdiagnosing a patient as ill, but is also less crucial than the other metrics as the primary goal is to help people in need.
+* Precision: Our third significant metric explains how many of the Predicted Positives of our model are correct. This is important to avoid misdiagnosing a patient as ill, but is also less crucial than the other metrics as the primary goal is to help people in need.
 
 Throughout the iterative process, we implemented various methodologies.
 
@@ -68,13 +68,13 @@ And this is the Confusion Matrix for the same model:
 
 The final model chosen based on highest performance, however, produced these results:]
 
-![]('./img/7-dropout-acc')
-![]('./img/7-dropout-loss')
-![]('./img/7-dropout-conf')
+![]('./img/7-dropout-acc.png')
+![]('./img/7-dropout-loss.png')
+![]('./img/7-dropout-conf.png')
 
 Below is a comparison of every model tested in this project as well as their performance metrics:
 
-![]('./img/model_scores.png')
+![]('./img/model_scores.PNG')
 
 ***
 
@@ -87,9 +87,9 @@ With a model that has an **87% Accuracy Score** and a **99% recall score**, Medi
 
 This model seems to be ready for deployment in the medical fields where it is most needed. However, there are a few other steps that can be taken to supplement this success:
 
-* Additional models could be investigated for similar instances to this one. For example, can we build a model that can accurately predict Pneumonia on other age groups, or perhaps even one model for *all* age groups?
-* Additional data collection may help to further improve model performance.
-* The model could be adjusted to account for multiple classifications, such as other types of Pneumonia or other illnesses detectable in chest x-rays
+> Additional models could be investigated for similar instances to this one. For example, can we build a model that can accurately predict Pneumonia on other age groups, or perhaps even one model for *all* age groups?
+> Additional data collection may help to further improve model performance.
+> The model could be adjusted to account for multiple classifications, such as other types of Pneumonia or other illnesses detectable in chest x-rays
 
 ***
 
