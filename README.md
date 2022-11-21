@@ -51,7 +51,7 @@ Additionally, we use certain metrics to identify how effective each model was wh
 Throughout the iterative process, we implemented various methodologies.
 
 One method in particular was the *Data Augmentation* on the training data, which alters the images to train our model on more general features of the data instead of overfitting on specifics that would be harmful to its performance. An example of these augmented images can be seen below:
-![]('./img/0-augmented_img_example.png')
+![](./img/0-augmented_img_example.png)
 
 Another important method was the *Dropout Regularization* step that was taken to train the model more generally once more. This process literally makes the model "drop out" some of the trained neurons.
 
