@@ -59,22 +59,22 @@ Another important method was the *Dropout Regularization* step that was taken to
 ## Results
 
 Our baseline model's Accuracy and Loss Visualizations can be seen below:
-![]('./img/1-baseline-acc.png')
-![]('./img/1-baseline-loss.png')
+![]('./img/1-baseline-acc.png)
+![]('./img/1-baseline-loss.png)
 
 And this is the Confusion Matrix for the same model:
-![]('./img/1-baseline-conf.png')
+![]('./img/1-baseline-conf.png)
 
 
 The final model chosen based on highest performance, however, produced these results:
 
-![]('./img/7-dropout-acc.png')
-![]('./img/7-dropout-loss.png')
-![]('./img/7-dropout-conf.png')
+![](./img/7-dropout-acc.png)
+![](./img/7-dropout-loss.png)
+![](./img/7-dropout-conf.png)
 
 Below is a comparison of every model tested in this project as well as their performance metrics:
 
-![]('./img/model_scores.png')
+![](./img/model_scores.png)
 
 ***
 
@@ -88,7 +88,9 @@ With a model that has an **87% Accuracy Score** and a **99% recall score**, Medi
 This model seems to be ready for deployment in the medical fields where it is most needed. However, there are a few other steps that can be taken to supplement this success:
 
 > Additional models could be investigated for similar instances to this one. For example, can we build a model that can accurately predict Pneumonia on other age groups, or perhaps even one model for *all* age groups?
+
 > Additional data collection may help to further improve model performance.
+
 > The model could be adjusted to account for multiple classifications, such as other types of Pneumonia or other illnesses detectable in chest x-rays
 
 ***
