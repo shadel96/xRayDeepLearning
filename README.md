@@ -66,17 +66,35 @@ And this is the Confusion Matrix for the same model:
 ![]('./img/1-baseline-conf.png')
 
 
-The final model chosen based on highest performance, however, produced these results:
+The final model chosen based on highest performance, however, produced these results:]
 
+![]('./img/7-dropout-acc')
+![]('./img/7-dropout-loss')
+![]('./img/7-dropout-conf')
 
-___________________________________________NJKnaljgnALJGNJASG:NLKGA:LKGNGAKLN_________________________________________________________
+Below is a comparison of every model tested in this project as well as their performance metrics:
+
+![]('./img/model_scores.png')
+
+***
 
 ## Conclusion
+The final model clearly shows a drastic improvement over the baseline, and accurately predicts patient x-rays as having pneumonia while also maintaining a high recall score, thus not misdiagnosing a patient as healthy when they are in critical need of care.
 
+With a model that has an **87% Accuracy Score** and a **99% recall score**, Medicins Sans Amygdales should have great success aiding medical professionals and communities in need across the globe.
 
+### Next Steps
+
+This model seems to be ready for deployment in the medical fields where it is most needed. However, there are a few other steps that can be taken to supplement this success:
+
+* Additional models could be investigated for similar instances to this one. For example, can we build a model that can accurately predict Pneumonia on other age groups, or perhaps even one model for *all* age groups?
+* Additional data collection may help to further improve model performance.
+* The model could be adjusted to account for multiple classifications, such as other types of Pneumonia or other illnesses detectable in chest x-rays
+
+***
 
 ## More Information
-The full testing and interpretation of results can be found [in this jupyter notebook, index.ipynb](./index.ipynb)
+The iterative model testing and interpretation of results can be found [in this jupyter notebook, index.ipynb](./index.ipynb)
 
 ## Repository Structure
 
@@ -85,7 +103,6 @@ The full testing and interpretation of results can be found [in this jupyter not
 ├── img
 ├── models
 ├── README.md
-├── imports.py
 ├── index.ipynb
 ├── xray_pneumonia_pres.pdf
 ```
