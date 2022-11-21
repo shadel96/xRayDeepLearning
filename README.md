@@ -66,7 +66,7 @@ And this is the Confusion Matrix for the same model:
 ![]('./img/1-baseline-conf.png')
 
 
-The final model chosen based on highest performance, however, produced these results:]
+The final model chosen based on highest performance, however, produced these results:
 
 ![]('./img/7-dropout-acc.png')
 ![]('./img/7-dropout-loss.png')
@@ -74,7 +74,7 @@ The final model chosen based on highest performance, however, produced these res
 
 Below is a comparison of every model tested in this project as well as their performance metrics:
 
-![]('./img/model_scores.PNG')
+![]('./img/model_scores.png')
 
 ***
 
