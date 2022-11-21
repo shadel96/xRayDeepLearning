@@ -6,7 +6,7 @@
 
 According to the World Health Organization, pneumonia accounts for 14% of all deaths of children under 5 years old. Also according to the WHO, pneumonia can be prevented but only one third of children who have it receive the antibiotics they need. More information [can be found here](https://www.who.int/news-room/fact-sheets/detail/pneumonia).
 
-A new artificial intelligence based medical research company, **Medicins Sans Limites (MSL)**, has launched a number of initiatives to create Neural Networks which aid the globe in solving crises like this one. The current project aims to accurately predict pneumonia based on chest radiography. 
+A new artificial intelligence based medical research company, **Medecins Sans Limites (MSL)**, has launched a number of initiatives to create Neural Networks which aid the globe in solving crises like this one. The current project aims to accurately predict pneumonia based on chest radiography. 
 
 The diagnosis of pneumonia requires a highly trained medical professional, as well as a variety of lab tests and a deep analysis of the patient's medical history and other symptoms. *MSL* does not aim to replace every step of the medical diagnosis process, as the human element of understanding other facts about a patient still remain. The objective is to create a highly accurate and sensitive model that can help medical professionals identify cases they need to treat based on the x-rays. 
 
@@ -81,7 +81,7 @@ Below is a comparison of every model tested in this project as well as their per
 ## Conclusion
 The final model clearly shows a drastic improvement over the baseline, and accurately predicts patient x-rays as having pneumonia while also maintaining a high recall score, thus not misdiagnosing a patient as healthy when they are in critical need of care.
 
-With a model that has an **87% Accuracy Score** and a **99% recall score**, Medicins Sans Limites should have great success aiding medical professionals and communities in need across the globe.
+With a model that has an **87% Accuracy Score** and a **99% recall score**, Medecins Sans Limites should have great success aiding medical professionals and communities in need across the globe.
 
 ### Next Steps
 
